@@ -1,0 +1,114 @@
+.marketSection {
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-direction: column;
+}
+.marketSection .topSection {
+  display: flex;
+  margin: auto;
+  padding: 20px;
+  max-width: 1330px;
+}
+
+.marketSection .leftSection {
+  padding: 20px;
+}
+
+.marketSection .leftSection h4 {
+  font-size: 54px;
+  font-weight: 400;
+  color: var(--primary_color);
+  text-transform: uppercase;
+}
+
+.rightSection .rightSection-cardwrapper {
+  padding: 0;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.marketSection .topSection .rightSection .rightSection-cardwrapper .card {
+  border: none;
+  width: 261px;
+}
+
+.marketSection .topSection .rightSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 70%;
+  margin: auto;
+}
+
+.bottomSection .imgSection {
+  position: relative;
+  overflow: hidden;
+  width: 236px;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+.bottomSection .imgSection img {
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.bottomSection .imgSection:hover img {
+  transform: scaleY(2); /* Zoom in on hover */
+}
+
+.bottomSection .imgSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black tint */
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.bottomSection .imgSection:hover::before {
+  opacity: 1;
+}
+
+.bottomSection .imgSection h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.bottomSection .imgSection:hover h4 {
+  opacity: 1;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+}

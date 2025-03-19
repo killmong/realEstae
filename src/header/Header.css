@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+:root {
+  --primary_color: #002f6c;
+  --secondary_color: rgba(0, 0, 0, 0.15);
+  --space_grotesk: "Space Grotesk", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  width: 100%;
+  height: 98px;
+  border: 1px solid var(--primary_color);
+}
+
+.innerHeader {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBarWrapper {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.navBarWrapper nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.navBarWrapper nav ul li a {
+  display: inline-block;
+  background-color: var(--primary_color);
+  color: white;
+  padding: 6px 24px;
+  text-transform: uppercase;
+  border-radius: 100px;
+}
+
+.CallToAction {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  padding: 6px 24px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  color: var(--primary_color);
+  border: 1px solid var(--primary_color);
+}
+
+.cartbtn {
+    position: relative;
+    display: inline-block;
+    padding: 6px;
+    border: 1px solid var(--secondary_color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    border-radius: 100px;
+    width: 45px;
+    height: 45px;
+  }
+  
+  .cartbtn.wishlist {
+    position: relative;
+    display: inline-block;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    border: none;
+    width: 45px;
+    height: 45px;
+  }
+  

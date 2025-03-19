@@ -1,0 +1,42 @@
+
+.CardWrapper {
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .CardWrapper .card {
+    width: 261px;
+    padding: 31px 21px;
+    border: 1px solid var(--secondary_color);
+    border-radius: 30px;
+    /* display: inline-block; */
+  }
+  
+  .CardWrapper .card .cardIcon {
+    padding: 14px;
+    background: #fbfff3;
+    display: inline-block;
+    border-radius: 20px;
+    border: 1px solid var(--secondary_color);
+    margin-bottom: 40px;
+  }
+  
+  .CardWrapper .card .cardIcon img {
+    width: 42px;
+    /* height: 42px; */
+  }
+  
+  .CardWrapper .card h4 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  
+  .CardWrapper .card span {
+    color: var(--primary_color);
+  }
+  

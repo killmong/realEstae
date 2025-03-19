@@ -1,0 +1,85 @@
+.Properties {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  background-color: var(--primary_color);
+}
+
+
+.Properties .textSection{
+    width: 70%;
+    margin: auto;
+}
+.Properties .textSection h4 {
+  font-size: 130px;
+  font-weight: 400;
+  text-align: center;
+
+  color: white;
+  text-transform: uppercase;
+}
+
+.Properties .CardWrapper {
+  display: grid;
+  margin: auto;
+  width: 70%;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.Properties .CardWrapper .Card {
+  width: 400px;
+  height: 363px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+
+  
+@media screen and (max-width: 1024px) {
+  .Properties .CardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Properties .CardWrapper .Card {
+    width: 100%;
+
+  }
+}
+.Properties .CardWrapper .Card h2 {
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.Properties .CardWrapper .Card p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Properties .CardWrapper .Card .Listings-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  padding: 3px 10px;
+  border: none;
+  border-radius: 20px;
+  color: var(--primary_color);
+  font-family: var(--space_grotesk);
+}
+
+.Properties .CardWrapper .Card a {
+  background-color: #ffffff;
+  padding: 5px;
+  border: 1px;
+  border-radius: 5px;
+}

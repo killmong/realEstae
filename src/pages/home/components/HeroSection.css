@@ -1,0 +1,249 @@
+.heroSection {
+  padding: 70px 0;
+}
+.heroSection .topSection {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.heroSection .topSection h1 {
+  font-size: 78px;
+  color: var(--primary_color);
+  width: 50%;
+  text-transform: uppercase;
+  font-family: "Syne", serif;
+  font-weight: normal;
+}
+
+.heroSection .content {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  justify-content: space-around;
+}
+
+.imgWrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.imgWrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.filterSection {
+  background-color: white;
+  border: 1px solid var(--primary_color);
+  box-shadow: 0 0 20px 0 rgba(206, 201, 201, 0.151);
+  height: 100px;
+  border-radius: 100px;
+  margin: 0 auto;
+  transform: translateY(-50%);
+  width: 990px;
+  padding: 31px 25px;
+  display: flex;
+  gap: 10px;
+}
+
+.filterSection .SearchSection,
+.select-dropdown {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--secondary_color);
+  padding: 0px 11px 0px 5px;
+  height: 48px;
+  border-radius: 100px;
+}
+
+.SearchSection input {
+  border: none;
+  outline: none;
+  padding: 25px 20px 25px 0px;
+}
+
+.select-dropdown {
+  width: 200px;
+  height: 48px;
+}
+
+.select-dropdown option {
+  text-align: right;
+}
+
+.select-dropdown select {
+  border: none;
+  outline: none;
+  padding: 6px;
+}
+.optionMenu {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--secondary_color);
+  padding: 6px;
+  border-radius: 100px;
+  width: 200px;
+}
+.optionMenu select {
+  border: none;
+  outline: none;
+  padding: 6px;
+  width: 100%;
+}
+
+.optionMenu ul {
+  list-style: none;
+}
+.optionMenu .optionMenu-content {
+  display: none;
+}
+
+.optionMenu.optionMenu-hover :hover .optionMenu-content {
+  display: block;
+  position: relative;
+  top: 10px;
+}
+
+.optionMenuWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.optionMenuWrapper .dropdown {
+  width: 200px;
+  overflow: hidden;
+}
+
+.Search-btn {
+  padding: 6px 24px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  color: white;
+  background-color: var(--primary_color);
+  border: 1px solid var(--primary_color);
+}
+
+.innersection {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+  gap: 40px;
+}
+
+.innersection .content .exp {
+  display: inline-block;
+}
+
+.innersection .content {
+  width: 40%;
+}
+.innersection .content .exp {
+  display: flex;
+  border-bottom: 1px solid var(--secondary_color);
+  padding-right: 30px;
+  margin-bottom: 30px;
+  width: 300px;
+  gap: 10px;
+  height: auto;
+}
+.innersection .content .exp h2 {
+  font-size: 130px;
+  color: var(--primary_color);
+  font-weight: 500;
+}
+.innersection .content .exp h3 {
+  font-size: 130px;
+  color: var(--primary_color);
+  font-family: var(--space_grotesk);
+}
+
+.innersection .content .exp h4 {
+  font-size: 24px;
+  font-family: var(--space_grotesk);
+  align-items: center;
+  display: flex;
+}
+.innersection .content h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+p {
+  color: #747474;
+}
+.innersection .content p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 30px 0;
+}
+
+.innersection {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+  gap: 40px;
+}
+
+.innersection .content .exp {
+  display: inline-block;
+}
+
+.innersection .content {
+  width: 40%;
+}
+.innersection .content .exp {
+  display: flex;
+  border-bottom: 1px solid var(--secondary_color);
+  padding-right: 30px;
+  margin-bottom: 30px;
+  width: 300px;
+  gap: 10px;
+  height: auto;
+}
+.innersection .content .exp h2 {
+  font-size: 130px;
+  color: var(--primary_color);
+  font-weight: 500;
+}
+.innersection .content .exp h3 {
+  font-size: 130px;
+  color: var(--primary_color);
+  font-family: var(--space_grotesk);
+}
+
+.innersection .content .exp h4 {
+  font-size: 24px;
+  font-family: var(--space_grotesk);
+  align-items: center;
+  display: flex;
+}
+.innersection .content h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+p {
+  color: #747474;
+}
+.innersection .content p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 30px 0;
+}
+.aboutSection {
+  position: relative;
+}
+
+.aboutSection .backText {
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  font-size: 134px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.05);
+  font-family: var(--inter);
+  font-weight: 400;
+}
