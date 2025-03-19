@@ -3,24 +3,24 @@ import React from "react";
 const Card = () => {
   const imageData = [
     {
-      bgImage: "/src/media/locations/germany1.png",
+      bgImage: "/media/locations/germany1.png",
       title: "Schloss Lichtenstein, Germany",
     },
     {
-      bgImage: "/src/media/locations/location2.png",
+      bgImage: "/media/locations/location2.png",
       title: "Japan",
     },
     {
-      bgImage: "/src/media/locations/location2.png",
+      bgImage: " /media/locations/location2.png",
       title: "Random location",
     },
     {
-      bgImage: "/src/media/locations/burjkhalifa.png",
+      bgImage: " /media/locations/burjkhalifa.png",
       title: "Burj Khalifa, Dubai",
     },
     {
       bgImage:
-        "/src/media/locations/67443f89fa67d21c2b20a9f4_location-5.avif.png",
+        " /media/locations/67443f89fa67d21c2b20a9f4_location-5.avif.png",
       title: "New York",
     },
   ];

@@ -81,14 +81,14 @@ const ListingCard = () => {
             <i className="mx-auto fa-regular fa-heart"></i>
           </Link>
           <div>
-            <img src={`/src/media/Properties/${item.image}`} alt={item.name} />
+            <img src={`/media/Properties/${item.image}`} alt={item.name} />
           </div>
           <h2>{item.name}</h2>
           <p>
             {item.details.bedrooms} Bedrooms | {item.details.bathrooms}{" "}
             Bathrooms | {item.details.squareFeet} sqft
           </p>
-          <Link to="/src/App.jsx" className="Listings-btn">
+          <Link to=" /App.jsx" className="Listings-btn">
             {item.status}
           </Link>
         </div>

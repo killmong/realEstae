@@ -9,7 +9,7 @@ const Header = () => {
       <div className="innerHeader">
         <div className="LogoWrapper">
           <Link>
-            <img src="/src/media/logo.svg" alt="" />
+            <img src=" /media/logo.svg" alt="" />
           </Link>
         </div>
         <Navbar />

@@ -62,7 +62,7 @@ const HeroSection = () => {
 
       <div className="imgSection">
         <div className="imgWrapper">
-          <img src="/src/media/heroImage.png" alt="" />
+          <img src=" /media/heroImage.png" alt="" />
         </div>
         <div className="filterSection">
           <div className="SearchSection">

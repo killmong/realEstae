@@ -3,22 +3,22 @@ import React from "react";
 const MarketSectionCard = () => {
   let data = {
     data1: {
-      img: "/src/media/profile.svg",
+      img: " /media/profile.svg",
       title: "Professional Agents",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nemo.",
     },
     data2: {
-      img: "/src/media/hand.svg",
+      img: " /media/hand.svg",
       title: "Personalized Advices",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nemo.",
     },
     data3: {
-      img: "/src/media/blackbuliding-icon.svg",
+      img: " /media/blackbuliding-icon.svg",
       title: "Professional Building",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nemo.",
     },
     data4: {
-      img: "/src/media/insights-black-icon.svg",
+      img: " /media/insights-black-icon.svg",
       title: "Market Insights",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nemo.",
     },
